@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    //ARITHEMATIC OPERATORS....
+    cout << "These are arithematic operators \n";
+    
+    int a = 4, b = 5;
+    cout << "The value of a + b is " << a + b << endl;
+    cout << "The value of a - b is " << a - b << endl;
+    cout << "The value of a * b is " << a * b << endl;
+    cout << "The value of a / b is " << a / b << endl;
+    cout << "The value of a % b is " << a % b << endl;
+    cout << "The value of a++ is " << a++ << endl;
+    cout << "The value of a-- is " << a-- << endl;
+    cout << "The value of ++a is " << ++a << endl;
+    cout << "The value of --a is " << --a << endl;
+
+
+    //RELATIONAL OPERATORS...
+    cout << "These are Relational operators \n";
+    
+    cout << "The value of a == b is " << (a == b) << endl;
+    cout << "The value of a < b is " << (a < b) << endl;
+    cout << "The value of a > b is " << (a > b) << endl;
+
+
+
+     //Logical operators ...
+    cout << "These are Logical operators \n";
+    
+    
+    cout << "The value of a && b is " << (a && b) << endl;
+    cout << "The value of a || b is " << (a || b) << endl;
+    cout << "The value of !a is " << (!a) << endl;
+}
+
