@@ -1,0 +1,22 @@
+#include <iostream>
+  using namespace std;
+  
+  
+int main() {
+    int age;
+    cout<<"enter your age to know if u can a get a license or not"<<endl;
+    cin>>age;
+    if(age>18){
+    cout<<"you can get a license";
+    }
+    
+    else if (16<18){
+    cout<<"you can get a license only for scooter"<<endl;
+    }
+    
+    
+    else {
+    cout<<"drive bicycle only!! kid"<<endl;
+    }
+    return 0;
+}
